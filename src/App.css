@@ -1,0 +1,178 @@
+
+*
+{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(3,0,31);
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+.App
+{
+  min-height: 100vh;
+  display: flex;
+}
+.sidebar
+{
+  flex: 3;
+  border-right:1px solid rgb(100,100,100);
+}
+.logo
+{
+  height:2rem;
+}
+.main
+{
+  flex:9;
+}
+.brand
+{
+  font-size: 1.2rem;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.uppersideTop
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+ 
+  
+  
+}
+.upperside{
+  border-bottom:1px solid rgb(100,100,100);
+  padding:2rem;
+  height:68%;
+}
+.midButton
+{
+  background: #5A4BFF;
+  border:none;
+  color:white;
+  font-size: 1rem;
+  padding:0.5rem;
+  display: flex;
+  align-items: center;
+   width:13rem;
+   justify-content:center;
+   border-radius:0.3rem;
+ 
+   margin-bottom: 2rem;
+}
+.addBtn
+{
+  height: 1.8rem;
+  padding-right: 1rem;
+}
+.query
+{
+  background: transparent;
+  color:rgba(222,222,222,1);
+  border:1px solid rgba(98,98,98,1);
+  border-radius: 0.2rem;
+  padding:10px 12px;
+  margin:1rem auto;
+}
+
+
+.query>img{
+   padding-right: 1.5rem;
+   object-fit: cover;
+   height:1rem;
+}
+.lowerside
+{
+  padding:1rem 1.5rem;
+}
+.listItems
+{
+  margin-top:0.8rem
+}
+
+.listItmsImg
+{
+  margin-right:1rem;
+ 
+}
+.main{
+  max-height:calc(100vh-13rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:2rem 6rem;
+
+  margin-bottom: 0;
+}
+.chatBox
+{
+
+}
+.footer
+{
+  width:100%;
+margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.inp
+{
+  padding: 0.5rem;
+  background: rgba(28,30,58,1);
+  /* position: fixed; */
+}
+.inp>input{
+  width:39rem;
+  outline: none;
+  color: white;
+  font-size: 0.8rem;
+  
+}
+.inp>input,.send
+{
+  background: transparent;
+  border:none
+}
+.footer>p{
+  margin:1rem 1rem;
+  font-size:0.7rem;
+}
+.chatBox{
+
+
+  scroll-behavior: smooth;
+  width:100%;
+  max-width: 70rem;
+  max-height: calc(100vh-17rem);
+
+}
+.chat
+{
+  margin:1rem;
+  padding:1rem 1rem;
+  font-size: 1.2rem;
+display: flex;
+align-items: flex-start;
+text-align: justify;
+}
+.mianImg
+{
+height:2rem;
+margin-right: 1rem;
+}
+.text{
+  font-size: 0.9rem;
+}
+.bot
+{
+  background:rgba(28,30,58,1);
+  width: fit-content;
+  border-radius: 0.5rem;
+  
+}
