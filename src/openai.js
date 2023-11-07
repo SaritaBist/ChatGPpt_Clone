@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-const openai = new OpenAI({ apiKey: "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" , dangerouslyAllowBrowser: true});
+const openai = new OpenAI({ apiKey: "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" , dangerouslyAllowBrowser: true});
 
 // const openai = new OpenAI({
 //   apiKey: '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', dangerouslyAllowBrowser: 'true' // This is also the default, can be omitted
